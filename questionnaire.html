@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>My Questionnaire</title>
+    <link rel="stylesheet" href="question.css">
+    <script src="major.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <img class="img-circle" src="img/Seyi.png" hspace="20" style="float: left; width: 70px">
+        <h1 style="color:rgb(42, 44, 165); font-family: cursive; font-size: 21.5px;">Sheyi</h1>
+    </div>
+
+    <div class="background">
+    </div>
+
+    <div class="content">
+        <h1 style="color:blue; margin-top: 30px">Hello,</h1>
+        <p style="font-size: 19px; color:brown">Below is a questionnaire. <br>Please click on the button next to the answer of your choice. <br>Thank you</p>
+        <hr>
+        <br>
+        <form action="major.js" name="form1" method="POST">
+            First name: <input type="text" name="firstname"><br>
+            <br>
+            Last name: <input type="text" name="lastname"><br>
+            <br>
+            Are you male or female?<br>
+            <input type="radio" name="sex" value="male">Male<br>
+            <input type="radio" name="sex" value="female">Female<br>
+            <br>
+            What is your age range?<br>
+            <input type="radio" name="age" value="Under 12 years old">Under 12 years old<br>
+            <input type="radio" name="age" value="12-17 years old">12-17 years<br>
+            <input type="radio" name="age" value="18-24 years old">18-24 years<br>
+            <input type="radio" name="age" value="25-34 years old">25-34 years<br>
+            <input type="radio" name="age" value="35 and older">35 and older<br>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>
